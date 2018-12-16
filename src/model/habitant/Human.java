@@ -5,7 +5,7 @@ public class Human extends Habitant {
 
     private int age;
 
-    public Human(int age, String name) {
+    public Human(String name, int age) {
         super(name);
         this.age = age;
     }

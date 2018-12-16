@@ -2,14 +2,13 @@
 package model.planet;
 
 import java.util.ArrayList;
-import model.habitant.Habitant;
 
 public class PlanetNano extends Planet {
 
     private int maxPopulation;
 
-    public PlanetNano(int maxPopulation, ArrayList<Habitant> population, ArrayList<Class> bannedRaces) {
-        super(population, bannedRaces);
+    public PlanetNano(String name, ArrayList<Class> bannedRaces, int maxPopulation) {
+        super(name, bannedRaces);
         this.maxPopulation = maxPopulation;
     }
 
