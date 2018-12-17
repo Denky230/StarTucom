@@ -15,7 +15,7 @@ public class StarTucom {
 
             Planet p = new Planet("Pluton", bannedRaces);
             p.addHabitant(new Human("hi", 0));
-            
+
         } catch (ApplicationException ex) {
             System.out.println(ex.getMessage());
         }
