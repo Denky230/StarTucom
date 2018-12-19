@@ -27,12 +27,24 @@ public class ExceptionsData {
         INVALID_STRENGTH
     }
     
-    private static final List<String> errorMessages = Arrays.asList(
+    public static final List<String> errorMessages = Arrays.asList(
         
         /* --- INPUT --- */
         
-        
+        "Nº de argumentos inválido",
+        "Operación incorrecta",
         
         /* --- APPLICATION --- */
+                
+        "Especie incorrecta",
+        "Planeta incorrecto",
+        "Dato incorrecto",
+        "No se puede registrar ese ser en ese planeta",
+        "Ya existe un ser censado con ese nombre",
+        "No existe ningún ser con ese nombre",
+        "El ser no permite ser modificado",
+        "Edad incorrecta",
+        "Nivel de meditación incorrecto",
+        "Valor de fuerza incorrecto"
     );
 }
