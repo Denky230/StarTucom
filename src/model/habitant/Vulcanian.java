@@ -9,6 +9,7 @@ public class Vulcanian extends Habitant {
         super(name);
         this.meditation = meditation;
     }
+    public Vulcanian() {}
 
     public int getMeditation() { return meditation; }
     public void setMeditation(int meditation) { this.meditation = meditation; }

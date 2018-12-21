@@ -3,12 +3,13 @@ package model.habitant;
 
 public class Nibirian extends Habitant {
     
-    private boolean isCarnivore;
+    private boolean isVegan;
     
     public Nibirian(String name, boolean isCarnivore) {
         super(name);
     }
+    public Nibirian() {}
 
-    public boolean isIsCarnivore() { return isCarnivore; }
-    public void setIsCarnivore(boolean isCarnivore) { this.isCarnivore = isCarnivore; }
+    public boolean isVegan() { return isVegan; }
+    public void setVegan(boolean isVegan) { this.isVegan = isVegan; }
 }

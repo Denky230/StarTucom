@@ -8,6 +8,7 @@ public class Andorrano extends Habitant {
     public Andorrano(String name, boolean isAenar) {
         super(name);
     }
+    public Andorrano() {}
 
     public boolean isIsAenar() { return isAenar; }
     public void setIsAenar(boolean isAenar) { this.isAenar = isAenar; }

@@ -8,6 +8,7 @@ public class Klingon extends Habitant {
     public Klingon(String name) {
         super(name);
     }
+    public Klingon() {}
 
     public int getStrength() { return strength; }
     public void setStrength(int strength) { this.strength = strength; }
