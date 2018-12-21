@@ -1,7 +1,7 @@
 
 package exceptions;
 
-import exceptions.ExceptionsData.Errors;
+import constants.ExceptionsData.Errors;
 
 public class ApplicationException extends MyException {
     

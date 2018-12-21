@@ -2,7 +2,7 @@
 package model.planet;
 
 import exceptions.ApplicationException;
-import exceptions.ExceptionsData.Errors;
+import constants.ExceptionsData.Errors;
 import model.habitant.Habitant;
 import java.util.ArrayList;
 
@@ -24,7 +24,7 @@ public class Planet {
     
     protected boolean isRaceBanned(Habitant habitant) {
         for (Habitant bannedRace : bannedRaces) {
-            if (habitant.getClass().equals(bannedRace))
+            if (habitant.getClass().equals(bannedRace.getClass()))
                 return true;
         }
         return false;
@@ -33,5 +33,7 @@ public class Planet {
     public void addHabitant(Habitant habitant) throws ApplicationException {
         if (isRaceBanned(habitant))
             throw new ApplicationException(Errors.BANNED_SPECIES);
+        
+        habitants.add(habitant);
     }
 }
