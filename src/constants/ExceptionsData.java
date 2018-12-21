@@ -1,5 +1,5 @@
 
-package exceptions;
+package constants;
 
 import java.util.Arrays;
 import java.util.List;
@@ -24,7 +24,8 @@ public class ExceptionsData {
         IMMUTABLE_SPECIES,
         INVALID_AGE,
         INVALID_MEDITATION,
-        INVALID_STRENGTH
+        INVALID_STRENGTH,
+        PLANET_FULL
     }
     
     public static final List<String> errorMessages = Arrays.asList(
@@ -45,6 +46,7 @@ public class ExceptionsData {
         "El ser no permite ser modificado",
         "Edad incorrecta",
         "Nivel de meditación incorrecto",
-        "Valor de fuerza incorrecto"
+        "Valor de fuerza incorrecto",
+        "El planeta no permite mas habitantes"
     );
 }
