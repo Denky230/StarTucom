@@ -13,4 +13,9 @@ public class Vulcanian extends Habitant {
 
     public int getMeditation() { return meditation; }
     public void setMeditation(int meditation) { this.meditation = meditation; }
+
+    @Override
+    public String toString() {
+        return getName() + ";meditation=" + meditation;
+    }
 }

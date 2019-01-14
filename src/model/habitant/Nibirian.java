@@ -12,4 +12,9 @@ public class Nibirian extends Habitant {
 
     public boolean isVegan() { return isVegan; }
     public void setVegan(boolean isVegan) { this.isVegan = isVegan; }
+
+    @Override
+    public String toString() {
+        return getName() + "isVegan=" + isVegan;
+    }
 }

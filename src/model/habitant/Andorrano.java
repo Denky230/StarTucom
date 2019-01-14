@@ -12,4 +12,9 @@ public class Andorrano extends Habitant {
 
     public boolean isIsAenar() { return isAenar; }
     public void setIsAenar(boolean isAenar) { this.isAenar = isAenar; }
+
+    @Override
+    public String toString() {
+        return getName() + ";isAenar=" + isAenar;
+    }
 }
